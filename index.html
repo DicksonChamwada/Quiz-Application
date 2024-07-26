@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="scr\output.css">
+</head>
+<body class="flex items-center justify-center min-h-screen bg-slate-400">
+  <div id="app" class="w-full max-w-md bg-blue-600 shadow-md rounded-lg p-6">
+    <div id="quiz-container" class="text-center">
+      <h1 class="text-2xl font-bold mb-4 text-white">Welcome to the Quiz!</h1>
+      <p class="mb-6 text-blue">Test your knowledge with our quiz. Click the button below to start.</p>
+      <button id="start-btn" class="bg-blue-500 text-white py-2 px-4 rounded">Start Quiz</button>
+    </div>
+
+    <div id="question-container" class="hidden">
+      <h2 id="question" class="text-xl font-bold mb-4 text-white"></h2>
+      <div id="answer-buttons" class="grid grid-cols-1 gap-4 mb-4"></div>
+      <p id="feedback" class="text-lg mb-4 hidden"></p>
+      <button id="next-btn" class="bg-blue-500 text-white py-2 px-4 rounded hidden">Next</button>
+    </div>
+
+    <div id="result-container" class="hidden text-center">
+      <h2 class="text-xl font-bold mb-4 text-white">Quiz Completed!</h2>
+      <p id="score" class="text-lg mb-4 text-white"></p>
+      <div id="detailed-feedback" class="text-lg mb-4 text-white hidden"></div>
+      <button id="restart-btn" class="bg-blue-500 text-white py-2 px-4 rounded">Restart Quiz</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
