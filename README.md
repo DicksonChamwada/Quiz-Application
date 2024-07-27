@@ -1,4 +1,4 @@
-<h3Quiz-Project</h3>
+<h3>Quiz-Project</h3>
 <br>
 Welcome to the Quiz App! This is a simple web application where users can test their knowledge on various topics. 
 The app presents a series of questions with multiple-choice answers, provides feedback on each answer, and displays the final score at the end of the quiz.
