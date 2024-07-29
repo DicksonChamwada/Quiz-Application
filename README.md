@@ -1,28 +1,30 @@
-<h3>Quiz-Project</h3>
+# Quiz Project
+
+Welcome to the Quiz App! This is a simple web application where users can test their knowledge on various topics. The app presents a series of questions with multiple-choice answers, provides feedback on each answer, and displays the final score at the end of the quiz.
+
+## Image 
+
+Here is the image of the front end:
+
 ![Sample Image](home.png)
 
-## More Content
+## Features
 
-Welcome to the Quiz App! This is a simple web application where users can test their knowledge on various topics.
-The app presents a series of questions with multiple-choice answers, provides feedback on each answer, and displays the final score at the end of the quiz.
+- User-friendly interface with a start screen, question display, and result summary.
+- Randomized questions for each quiz session.
+- Immediate feedback on whether the selected answer is correct or incorrect.
+- Detailed feedback at the end of the quiz, showing the user's answers and whether they were correct.
 
-<h3>Table of Contents</h3>
-1.Features 
-<br>
-2.Technologies Used
-<br>
-3.Getting Started
-<br>
-4.License
-<br>
+## Technologies Used
 
-<h3>Features</h3>
-User-friendly interface with a start screen, question display, and result summary. Randomized questions for each quiz session.
-Immediate feedback on whether the selected answer is correct or incorrect. 
-Detailed feedback at the end of the quiz, showing the user's answers and whether they were correct.
-<br>
+1. HTML
+2. CSS
+3. JavaScript
 
-<h3>Technologies Used</h3>
-1.HTML
-2.CSS
-3.JavaScript
+## Getting Started
+
+Instructions to get started with the project.
+
+## License
+
+Information about the project's license.
